@@ -58,11 +58,15 @@ def setup_database():
         CREATE TABLE IF NOT EXISTS countries (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             name TEXT NOT NULL,
-            population TEXT,
-            area TEXT,
+            iso_code TEXT,
+            fips_code TEXT,
             capital TEXT,
+            area TEXT,
+            population TEXT,
             currency TEXT,
-            other_details TEXT
+            languages TEXT,
+            neighbours TEXT,
+            national_flag TEXT
         )
     ''')
     conn.commit()
@@ -72,15 +76,19 @@ def setup_database():
 def insert_country_to_db(conn, country_data):
     cursor = conn.cursor()
     cursor.execute('''
-        INSERT INTO countries (name, population, area, capital, currency, other_details)
-        VALUES (?, ?, ?, ?, ?, ?)
+        INSERT INTO countries (name, iso_code, fips_code, capital, area, population, currency, languages, neighbours, national_flag)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     ''', (
         country_data.get('name'),
-        country_data.get('Population'),
-        country_data.get('Area'),
-        country_data.get('Capital'),
-        country_data.get('Currency'),
-        str(country_data)  # Almacenar detalles adicionales como JSON o string
+        country_data.get('iso code'),
+        country_data.get('fips code'),
+        country_data.get('capital'),
+        country_data.get('area'),
+        country_data.get('population'),
+        country_data.get('currency'),
+        country_data.get('languages'),
+        country_data.get('neighbours'),
+        country_data.get('national_flag')
     ))
     conn.commit()
 

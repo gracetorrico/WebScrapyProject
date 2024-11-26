@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Función para obtener datos desde SQLite
 def fetch_data_from_db():
-    conn = sqlite3.connect('countries.db')
+    conn = sqlite3.connect('countries_details.db')
     cursor = conn.cursor()
 
     # Consultar los 5 países con mayor población
