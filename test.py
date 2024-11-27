@@ -2,111 +2,110 @@ import requests
 from bs4 import BeautifulSoup
 import sqlite3
 
+# Crear la conexión a la base de datos SQLite
+conn = sqlite3.connect('countries.db')
+cursor = conn.cursor()
+
+# Crear la tabla si no existe
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS countries (
+        country_name TEXT,
+        iso_code TEXT,
+        fips_code TEXT,
+        capital TEXT,
+        area_km2 REAL,
+        population INTEGER,
+        currency TEXT,
+        languages TEXT
+    )
+''')
+
 # URL principal
 base_url = "https://www.geonames.org"
+countries_url = f"{base_url}/countries/"
 
-# Función para extraer enlaces de países
-def extract_country_links():
-    url = f"{base_url}/countries/"
-    response = requests.get(url)
-    if response.status_code != 200:
-        print(f"Error al acceder a la página: {response.status_code}")
-        return []
+# Hacer la solicitud a la página principal
+response = requests.get(countries_url)
+soup = BeautifulSoup(response.content, 'html.parser')
 
-    soup = BeautifulSoup(response.text, 'html.parser')
-    table = soup.find('table', class_='restable')  # Identificar la tabla principal
-    rows = table.find_all('tr')[1:]  # Ignorar la fila de encabezado
+# Extraer los enlaces a los países
+countries_table = soup.find('table', {'id': 'countries'})
+country_links = countries_table.find_all('a', href=True)
 
-    country_links = []
+for link in country_links:
+    country_url = f"{base_url}{link['href']}"
+    print(f"Procesando país: {link.text} - URL: {country_url}")  # Print para verificar URLs de países
+    
+    country_response = requests.get(country_url)
+    country_soup = BeautifulSoup(country_response.content, 'html.parser')
+
+    # Extraer detalles del país
+    country_name = link.text
+    
+    # Buscar la tabla donde están los datos del país
+    data_table = country_soup.find_all('table')[1]  # La segunda tabla contiene los datos relevantes
+    rows = data_table.find_all('tr') if data_table else []
+
+    country_data = {
+        'iso_code': None,
+        'fips_code': None,
+        'capital': None,
+        'area_km2': None,
+        'population': None,
+        'currency': None,
+        'languages': None
+    }
+
+    # Iterar por las filas de la tabla para obtener la información
     for row in rows:
-        cols = row.find_all('td')
-        country_name = cols[4].text.strip()
-        country_link = cols[4].find('a')['href']
-        country_links.append((country_name, f"{base_url}{country_link}"))
+        cells = row.find_all('td')
+        if len(cells) == 2:
+            label = cells[0].text.strip().lower()
+            value = cells[1].text.strip()
 
-    return country_links
+            # Asignar el valor según la etiqueta correspondiente
+            if 'iso code' in label:
+                country_data['iso_code'] = value
+            elif 'fips code' in label:
+                country_data['fips_code'] = value
+            elif 'capital' in label:
+                country_data['capital'] = value
+            elif 'area' in label:
+                try:
+                    country_data['area_km2'] = float(value.split()[0].replace(',', ''))
+                except ValueError:
+                    pass  # Si no se puede convertir a flotante, no hacer nada
+            elif 'population' in label:
+                try:
+                    country_data['population'] = int(value.replace(',', ''))
+                except ValueError:
+                    pass  # Si no se puede convertir a entero, no hacer nada
+            elif 'currency' in label:
+                country_data['currency'] = value
+            elif 'languages' in label:
+                country_data['languages'] = value
 
-# Función para extraer detalles de un país
-def extract_country_details(country_url):
-    response = requests.get(country_url)
-    if response.status_code != 200:
-        print(f"Error al acceder a la página: {country_url}")
-        return None
+    # Verificar los datos extraídos
+    print(f"Datos extraídos para {country_name}: {country_data}")
 
-    soup = BeautifulSoup(response.text, 'html.parser')
-    country_info = {}
-
-    # Extraer detalles clave
-    country_info['name'] = soup.find('h3').text.strip()
-    details_table = soup.find('table', cellpadding='5')  # Usar atributos específicos
-    if details_table:
-        rows = details_table.find_all('tr')  # Todas las filas de la tabla
-        for row in rows:
-            cols = row.find_all('td')  # Todas las celdas de una fila
-            if len(cols) == 2:  # Verificar que haya exactamente 2 columnas
-                key = cols[0].text.strip().replace(":", "")  # Primera columna como clave
-                value = cols[1].text.strip()  # Segunda columna como valor
-                country_info[key] = value
-
-    return country_info
-
-# Crear base de datos y tabla
-def setup_database():
-    conn = sqlite3.connect('countries_details.db')
-    cursor = conn.cursor()
+    # Guardar en la base de datos
     cursor.execute('''
-        CREATE TABLE IF NOT EXISTS countries (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            name TEXT NOT NULL,
-            iso_code TEXT,
-            fips_code TEXT,
-            capital TEXT,
-            area TEXT,
-            population TEXT,
-            currency TEXT,
-            languages TEXT,
-            neighbours TEXT,
-            national_flag TEXT
-        )
-    ''')
-    conn.commit()
-    return conn
-
-# Insertar datos en la base de datos
-def insert_country_to_db(conn, country_data):
-    cursor = conn.cursor()
-    cursor.execute('''
-        INSERT INTO countries (name, iso_code, fips_code, capital, area, population, currency, languages, neighbours, national_flag)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        INSERT INTO countries (country_name, iso_code, fips_code, capital, area_km2, population, currency, languages)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
     ''', (
-        country_data.get('name'),
-        country_data.get('iso code'),
-        country_data.get('fips code'),
-        country_data.get('capital'),
-        country_data.get('area'),
-        country_data.get('population'),
-        country_data.get('currency'),
-        country_data.get('languages'),
-        country_data.get('neighbours'),
-        country_data.get('national_flag')
+        country_name,
+        country_data['iso_code'],
+        country_data['fips_code'],
+        country_data['capital'],
+        country_data['area_km2'],
+        country_data['population'],
+        country_data['currency'],
+        country_data['languages']
     ))
     conn.commit()
 
-# Flujo principal
-if __name__ == "__main__":
-    print("Extrayendo enlaces de países...")
-    country_links = extract_country_links()
-    if not country_links:
-        print("No se encontraron países.")
-    else:
-        print("Configurando la base de datos...")
-        connection = setup_database()
+    print(f"Datos guardados para {country_name} en la base de datos.\n")  # Print para verificar guardado
 
-        for name, link in country_links:
-            print(f"Extrayendo detalles de {name}...")
-            details = extract_country_details(link)
-            if details:
-                insert_country_to_db(connection, details)
-
-        connection.close()
-        print("Proceso completado. Los datos se almacenaron en 'countries_details.db'.")
+# Cerrar la conexión
+conn.close()
+print("Finalizado. Todos los datos han sido procesados.")
