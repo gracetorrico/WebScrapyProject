@@ -1,0 +1,251 @@
+country_name,iso_code,fips_code,capital,area_km2,population,currency,languages
+Andorra,"AD, 020 and AND",AN,Andorra la Vella,468.0,77006,Euro (EUR),Catalan (ca)
+United Arab Emirates,"AE, 784 and ARE",AE,Abu Dhabi,82880.0,9630959,Dirham (AED),"Arabic (ar-AE), Persian (fa), English (en), Hindi (hi), Urdu (ur)"
+Afghanistan,"AF, 004 and AFG",AF,Kabul,647500.0,37172386,Afghani (AFN),"Persian (fa-AF), Pushto (ps), Uzbek (uz-AF), Turkmen (tk)"
+Antigua and Barbuda,"AG, 028 and ATG",AC,St John's,443.0,96286,Dollar (XCD),English (en-AG)
+Anguilla,"AI, 660 and AIA",AV,The Valley,102.0,13254,Dollar (XCD),English (en-AI)
+Albania,"AL, 008 and ALB",AL,Tirana,28748.0,2866376,Lek (ALL),"Albanian (sq), Modern Greek (1453-) (el)"
+Armenia,"AM, 051 and ARM",AM,Yerevan,29800.0,2951776,Dram (AMD),Armenian (hy)
+Angola,"AO, 024 and AGO",AO,Luanda,1246700.0,30809762,Kwanza (AOA),Portuguese (pt-AO)
+Antarctica,"AQ, 010 and ATA",AY,,14000000.0,0,,()
+Argentina,"AR, 032 and ARG",AR,Buenos Aires,2766890.0,44494502,Peso (ARS),"Spanish (es-AR), English (en), Italian (it), German (de), French (fr), Guarani (gn)"
+American Samoa,"AS, 016 and ASM",AQ,Pago Pago,199.0,55465,Dollar (USD),"English (en-AS), Samoan (sm), Tonga (Tonga Islands) (to)"
+Austria,"AT, 040 and AUT",AU,Vienna,83858.0,8847037,Euro (EUR),"German (de-AT), Croatian (hr), Hungarian (hu), Slovenian (sl)"
+Australia,"AU, 036 and AUS",AS,Canberra,7686850.0,24992369,Dollar (AUD),English (en-AU)
+Aruba,"AW, 533 and ABW",AA,Oranjestad,193.0,105845,Guilder (AWG),"Dutch (nl-AW), Papiamento (pap), Spanish (es), English (en)"
+Åland,"AX, 248 and ALA",,Mariehamn,1580.0,26711,Euro (EUR),Swedish (sv-AX)
+Azerbaijan,"AZ, 031 and AZE",AJ,Baku,86600.0,9942334,Manat (AZN),"Azerbaijani (az), Russian (ru), Armenian (hy)"
+Bosnia and Herzegovina,"BA, 070 and BIH",BK,Sarajevo,51129.0,3323929,Marka (BAM),"Bosnian (bs), Croatian (hr-BA), Serbian (sr-BA)"
+Barbados,"BB, 052 and BRB",BB,Bridgetown,431.0,286641,Dollar (BBD),English (en-BB)
+Bangladesh,"BD, 050 and BGD",BG,Dhaka,144000.0,161356039,Taka (BDT),"Bengali (bn-BD), English (en)"
+Belgium,"BE, 056 and BEL",BE,Brussels,30510.0,11422068,Euro (EUR),"Dutch (nl-BE), French (fr-BE), German (de-BE)"
+Burkina Faso,"BF, 854 and BFA",UV,Ouagadougou,274200.0,19751535,Franc (XOF),"French (fr-BF), Mossi (mos)"
+Bulgaria,"BG, 100 and BGR",BU,Sofia,110910.0,7000039,Lev (BGN),"Bulgarian (bg), Turkish (tr-BG), Romany (rom)"
+Bahrain,"BH, 048 and BHR",BA,Manama,665.0,1569439,Dinar (BHD),"Arabic (ar-BH), English (en), Persian (fa), Urdu (ur)"
+Burundi,"BI, 108 and BDI",BY,Gitega,27830.0,11175378,Franc (BIF),"French (fr-BI), Rundi (rn)"
+Benin,"BJ, 204 and BEN",BN,Porto-Novo,112620.0,11485048,Franc (XOF),French (fr-BJ)
+Saint Barthélemy,"BL, 652 and BLM",TB,Gustavia,21.0,8450,Euro (EUR),French (fr)
+Bermuda,"BM, 060 and BMU",BD,Hamilton,53.0,63968,Dollar (BMD),"English (en-BM), Portuguese (pt)"
+Brunei,"BN, 096 and BRN",BX,Bandar Seri Begawan,5770.0,428962,Dollar (BND),"Malay (macrolanguage) (ms-BN), English (en-BN)"
+Bolivia,"BO, 068 and BOL",BL,Sucre,1098580.0,11353142,Boliviano (BOB),"Spanish (es-BO), Quechua (qu), Aymara (ay)"
+"Bonaire, Sint Eustatius, and Saba","BQ, 535 and BES",,Kralendijk,328.0,18012,Dollar (USD),"Dutch (nl), Papiamento (pap), English (en)"
+Brazil,"BR, 076 and BRA",BR,Brasília,8511965.0,209469333,Real (BRL),"Portuguese (pt-BR), Spanish (es), English (en), French (fr)"
+Bahamas,"BS, 044 and BHS",BF,Nassau,13940.0,385640,Dollar (BSD),English (en-BS)
+Bhutan,"BT, 064 and BTN",BT,Thimphu,47000.0,754394,Ngultrum (BTN),Dzongkha (dz)
+Bouvet Island,"BV, 074 and BVT",BV,,49.0,0,Krone (NOK),()
+Botswana,"BW, 072 and BWA",BC,Gaborone,600370.0,2254126,Pula (BWP),"English (en-BW), Tswana (tn-BW)"
+Belarus,"BY, 112 and BLR",BO,Minsk,207600.0,9485386,Belarusian ruble (BYN),"Belarusian (be), Russian (ru)"
+Belize,"BZ, 084 and BLZ",BH,Belmopan,22966.0,383071,Dollar (BZD),"English (en-BZ), Spanish (es)"
+Canada,"CA, 124 and CAN",CA,Ottawa,9984670.0,37058856,Dollar (CAD),"English (en-CA), French (fr-CA), Inuktitut (iu)"
+Cocos (Keeling) Islands,"CC, 166 and CCK",CK,West Island,14.0,628,Dollar (AUD),"Malay (macrolanguage) (ms-CC), English (en)"
+DR Congo,"CD, 180 and COD",CG,Kinshasa,2345410.0,84068091,Franc (CDF),"French (fr-CD), Lingala (ln), Kituba (Democratic Republic of Congo) (ktu), Kongo (kg), Swahili (macrolanguage) (sw), Luba-Lulua (lua)"
+Central African Republic,"CF, 140 and CAF",CT,Bangui,622984.0,4666377,Franc (XAF),"French (fr-CF), Sango (sg), Lingala (ln), Kongo (kg)"
+Congo Republic,"CG, 178 and COG",CF,Brazzaville,342000.0,5244363,Franc (XAF),"French (fr-CG), Kongo (kg), Lingala (ln-CG)"
+Switzerland,"CH, 756 and CHE",SZ,Bern,41290.0,8516543,Franc (CHF),"German (de-CH), French (fr-CH), Italian (it-CH), Romansh (rm)"
+Ivory Coast,"CI, 384 and CIV",IV,Yamoussoukro,322460.0,25069229,Franc (XOF),French (fr-CI)
+Cook Islands,"CK, 184 and COK",CW,Avarua,240.0,21388,Dollar (NZD),"English (en-CK), Maori (mi)"
+Chile,"CL, 152 and CHL",CI,Santiago,756950.0,18729160,Peso (CLP),Spanish (es-CL)
+Cameroon,"CM, 120 and CMR",CM,Yaoundé,475440.0,25216237,Franc (XAF),"English (en-CM), French (fr-CM)"
+China,"CN, 156 and CHN",CH,Beijing,9596960.0,1411778724,Yuan Renminbi (CNY),"Chinese (zh-CN), Yue Chinese (yue), Wu Chinese (wuu), Daur (dta), Uighur (ug), Zhuang (za)"
+Colombia,"CO, 170 and COL",CO,Bogotá,1138910.0,49648685,Peso (COP),Spanish (es-CO)
+Costa Rica,"CR, 188 and CRI",CS,San José,51100.0,4999441,Colon (CRC),"Spanish (es-CR), English (en)"
+Cuba,"CU, 192 and CUB",CU,Havana,110860.0,11338138,Peso (CUP),"Spanish (es-CU), Papiamento (pap)"
+Cabo Verde,"CV, 132 and CPV",CV,Praia,4033.0,543767,Escudo (CVE),Portuguese (pt-CV)
+Curaçao,"CW, 531 and CUW",UC,Willemstad,444.0,159849,Guilder (ANG),"Dutch (nl), Papiamento (pap)"
+Christmas Island,"CX, 162 and CXR",KT,Flying Fish Cove,135.0,1500,Dollar (AUD),"English (en), Chinese (zh), Malay (macrolanguage) (ms-CX)"
+Cyprus,"CY, 196 and CYP",CY,Nicosia,9250.0,1189265,Euro (EUR),"Modern Greek (1453-) (el-CY), Turkish (tr-CY), English (en)"
+Czechia,"CZ, 203 and CZE",EZ,Prague,78866.0,10625695,Koruna (CZK),"Czech (cs), Slovak (sk)"
+Germany,"DE, 276 and DEU",GM,Berlin,357021.0,82927922,Euro (EUR),German (de)
+Djibouti,"DJ, 262 and DJI",DJ,Djibouti,23000.0,958920,Franc (DJF),"French (fr-DJ), Arabic (ar), Somali (so-DJ), Afar (aa)"
+Denmark,"DK, 208 and DNK",DA,Copenhagen,43094.0,5797446,Krone (DKK),"Danish (da-DK), English (en), Faroese (fo), German (de-DK)"
+Dominica,"DM, 212 and DMA",DO,Roseau,754.0,71625,Dollar (XCD),English (en-DM)
+Dominican Republic,"DO, 214 and DOM",DR,Santo Domingo,48730.0,10627165,Peso (DOP),Spanish (es-DO)
+Algeria,"DZ, 012 and DZA",AG,Algiers,2381740.0,42228429,Dinar (DZD),Arabic (ar-DZ)
+Ecuador,"EC, 218 and ECU",EC,Quito,283560.0,17084357,Dollar (USD),Spanish (es-EC)
+Estonia,"EE, 233 and EST",EN,Tallinn,45226.0,1320884,Euro (EUR),"Estonian (et), Russian (ru)"
+Egypt,"EG, 818 and EGY",EG,Cairo,1001450.0,98423595,Pound (EGP),"Arabic (ar-EG), English (en), French (fr)"
+Western Sahara,"EH, 732 and ESH",WI,,266000.0,273008,Dirham (MAD),"Arabic (ar), Hassaniyya (mey)"
+Eritrea,"ER, 232 and ERI",ER,Asmara,121320.0,6209262,Nakfa (ERN),"Afar (aa-ER), Arabic (ar), Tigre (tig), Kunama (kun), Tigrinya (ti-ER)"
+Spain,"ES, 724 and ESP",SP,Madrid,504782.0,46723749,Euro (EUR),"Spanish (es-ES), Catalan (ca), Galician (gl), Basque (eu), Occitan (post 1500) (oc)"
+Ethiopia,"ET, 231 and ETH",ET,Addis Ababa,1127127.0,109224559,Birr (ETB),"Amharic (am), English (en-ET), Oromo (om-ET), Tigrinya (ti-ET), Somali (so-ET), Sidamo (sid)"
+Finland,"FI, 246 and FIN",FI,Helsinki,337030.0,5518050,Euro (EUR),"Finnish (fi-FI), Swedish (sv-FI), Inari Sami (smn)"
+Fiji,"FJ, 242 and FJI",FJ,Suva,18270.0,883483,Dollar (FJD),"English (en-FJ), Fijian (fj)"
+Falkland Islands,"FK, 238 and FLK",FK,Stanley,12173.0,2638,Pound (FKP),English (en-FK)
+Micronesia,"FM, 583 and FSM",FM,Palikir,702.0,112640,Dollar (USD),"English (en-FM), Chuukese (chk), Pohnpeian (pon), Yapese (yap), Kosraean (kos), Ulithian (uli), Woleaian (woe), Nukuoro (nkr), Kapingamarangi (kpg)"
+Faroe Islands,"FO, 234 and FRO",FO,Tórshavn,1399.0,48497,Krone (DKK),"Faroese (fo), Danish (da-FO)"
+France,"FR, 250 and FRA",FR,Paris,547030.0,66987244,Euro (EUR),"French (fr-FR), Arpitan (frp), Breton (br), Corsican (co), Catalan (ca), Basque (eu), Occitan (post 1500) (oc)"
+Gabon,"GA, 266 and GAB",GB,Libreville,267667.0,2119275,Franc (XAF),French (fr-GA)
+United Kingdom,"GB, 826 and GBR",UK,London,244820.0,66488991,Pound (GBP),"English (en-GB), Welsh (cy-GB), Scottish Gaelic (gd)"
+Grenada,"GD, 308 and GRD",GJ,St. George's,344.0,111454,Dollar (XCD),English (en-GD)
+Georgia,"GE, 268 and GEO",GG,Tbilisi,69700.0,3731000,Lari (GEL),"Georgian (ka), Russian (ru), Armenian (hy), Azerbaijani (az)"
+French Guiana,"GF, 254 and GUF",FG,Cayenne,91000.0,195506,Euro (EUR),French (fr-GF)
+Guernsey,"GG, 831 and GGY",GK,St Peter Port,78.0,65228,Pound (GBP),"English (en), Jèrriais (nrf)"
+Ghana,"GH, 288 and GHA",GH,Accra,239460.0,29767108,Cedi (GHS),"English (en-GH), Akan (ak), Ewe (ee), Twi (tw)"
+Gibraltar,"GI, 292 and GIB",GI,Gibraltar,6.5,33718,Pound (GIP),"English (en-GI), Spanish (es), Italian (it), Portuguese (pt)"
+Greenland,"GL, 304 and GRL",GL,Nuuk,2166086.0,56025,Krone (DKK),"Kalaallisut (kl), Danish (da-GL), English (en)"
+The Gambia,"GM, 270 and GMB",GA,Banjul,11300.0,2280102,Dalasi (GMD),"English (en-GM), Mandinka (mnk), Gambian Wolof (wof), Wolof (wo), Fulah (ff)"
+Guinea,"GN, 324 and GIN",GV,Conakry,245857.0,12414318,Franc (GNF),French (fr-GN)
+Guadeloupe,"GP, 312 and GLP",GP,Basse-Terre,1780.0,443000,Euro (EUR),French (fr-GP)
+Equatorial Guinea,"GQ, 226 and GNQ",EK,Malabo,28051.0,1308974,Franc (XAF),"Spanish (es-GQ), French (fr), Portuguese (pt)"
+Greece,"GR, 300 and GRC",GR,Athens,131940.0,10727668,Euro (EUR),"Modern Greek (1453-) (el-GR), English (en), French (fr)"
+South Georgia and South Sandwich Islands,"GS, 239 and SGS",SX,Grytviken,3903.0,30,Pound (GBP),English (en)
+Guatemala,"GT, 320 and GTM",GT,Guatemala City,108890.0,17247807,Quetzal (GTQ),Spanish (es-GT)
+Guam,"GU, 316 and GUM",GQ,Hagåtña,549.0,165768,Dollar (USD),"English (en-GU), Chamorro (ch-GU)"
+Guinea-Bissau,"GW, 624 and GNB",PU,Bissau,36120.0,1874309,Franc (XOF),"Portuguese (pt-GW), Upper Guinea Crioulo (pov)"
+Guyana,"GY, 328 and GUY",GY,Georgetown,214970.0,779004,Dollar (GYD),English (en-GY)
+Hong Kong,"HK, 344 and HKG",HK,Hong Kong,1092.0,7491609,Dollar (HKD),"Chinese (zh-HK), Yue Chinese (yue), Chinese (zh), English (en)"
+Heard and McDonald Islands,"HM, 334 and HMD",HM,,412.0,0,Dollar (AUD),()
+Honduras,"HN, 340 and HND",HO,Tegucigalpa,112090.0,9587522,Lempira (HNL),"Spanish (es-HN), Garifuna (cab), Mískito (miq)"
+Croatia,"HR, 191 and HRV",HR,Zagreb,56542.0,3871833,Euro (EUR),"Croatian (hr-HR), Serbian (sr)"
+Haiti,"HT, 332 and HTI",HA,Port-au-Prince,27750.0,11123176,Gourde (HTG),"Haitian (ht), French (fr-HT)"
+Hungary,"HU, 348 and HUN",HU,Budapest,93030.0,9768785,Forint (HUF),Hungarian (hu-HU)
+Indonesia,"ID, 360 and IDN",ID,Jakarta,1919440.0,267663435,Rupiah (IDR),"Indonesian (id), English (en), Dutch (nl), Javanese (jv)"
+Ireland,"IE, 372 and IRL",EI,Dublin,70280.0,4853506,Euro (EUR),"English (en-IE), Irish (ga-IE)"
+Israel,"IL, 376 and ISR",IS,,20770.0,8883800,Shekel (ILS),"Hebrew (he), Arabic (ar-IL), English (en-IL)"
+Isle of Man,"IM, 833 and IMN",IM,Douglas,572.0,84077,Pound (GBP),"English (en), Manx (gv)"
+India,"IN, 356 and IND",IN,New Delhi,3287590.0,1352617328,Rupee (INR),"English (en-IN), Hindi (hi), Bengali (bn), Telugu (te), Marathi (mr), Tamil (ta), Urdu (ur), Gujarati (gu), Kannada (kn), Malayalam (ml), Oriya (macrolanguage) (or), Panjabi (pa), Assamese (as), Bihari languages (bh), Santali (sat), Kashmiri (ks), Nepali (macrolanguage) (ne), Sindhi (sd), Konkani (macrolanguage) (kok), Dogri (macrolanguage) (doi), Manipuri (mni), Sino-Tibetan languages (sit), Sanskrit (sa), French (fr), Lushai (lus), Indic languages (inc)"
+British Indian Ocean Territory,"IO, 086 and IOT",IO,,60.0,4000,Dollar (USD),English (en-IO)
+Iraq,"IQ, 368 and IRQ",IZ,Baghdad,437072.0,38433600,Dinar (IQD),"Arabic (ar-IQ), Kurdish (ku), Armenian (hy)"
+Iran,"IR, 364 and IRN",IR,Tehran,1648000.0,81800269,Rial (IRR),"Persian (fa-IR), Kurdish (ku)"
+Iceland,"IS, 352 and ISL",IC,Reykjavik,103000.0,353574,Krona (ISK),"Icelandic (is), English (en), German (de), Danish (da), Swedish (sv), Norwegian (no)"
+Italy,"IT, 380 and ITA",IT,Rome,301230.0,60431283,Euro (EUR),"Italian (it-IT), German (de-IT), French (fr-IT), Sardinian (sc), Catalan (ca), Corsican (co), Slovenian (sl)"
+Jersey,"JE, 832 and JEY",JE,Saint Helier,116.0,90812,Pound (GBP),"English (en), French (fr), Jèrriais (nrf)"
+Jamaica,"JM, 388 and JAM",JM,Kingston,10991.0,2934855,Dollar (JMD),English (en-JM)
+Jordan,"JO, 400 and JOR",JO,Amman,92300.0,9956011,Dinar (JOD),"Arabic (ar-JO), English (en)"
+Japan,"JP, 392 and JPN",JA,Tokyo,377835.0,126529100,Yen (JPY),Japanese (ja)
+Kenya,"KE, 404 and KEN",KE,Nairobi,582650.0,51393010,Shilling (KES),"English (en-KE), Swahili (macrolanguage) (sw-KE)"
+Kyrgyzstan,"KG, 417 and KGZ",KG,Bishkek,198500.0,6315800,Som (KGS),"Kirghiz (ky), Uzbek (uz), Russian (ru)"
+Cambodia,"KH, 116 and KHM",CB,Phnom Penh,181040.0,16249798,Riels (KHR),"Khmer (km), French (fr), English (en)"
+Kiribati,"KI, 296 and KIR",KR,Tarawa,811.0,115847,Dollar (AUD),"English (en-KI), Gilbertese (gil)"
+Comoros,"KM, 174 and COM",CN,Moroni,2170.0,832322,Franc (KMF),"Arabic (ar), French (fr-KM)"
+St Kitts and Nevis,"KN, 659 and KNA",SC,Basseterre,261.0,52441,Dollar (XCD),English (en-KN)
+North Korea,"KP, 408 and PRK",KN,Pyongyang,120540.0,25549819,Won (KPW),Korean (ko-KP)
+South Korea,"KR, 410 and KOR",KS,Seoul,98480.0,51635256,Won (KRW),"Korean (ko-KR), English (en)"
+Kuwait,"KW, 414 and KWT",KU,Kuwait City,17820.0,4137309,Dinar (KWD),"Arabic (ar-KW), English (en)"
+Cayman Islands,"KY, 136 and CYM",CJ,George Town,262.0,64174,Dollar (KYD),English (en-KY)
+Kazakhstan,"KZ, 398 and KAZ",KZ,Nur-Sultan,2717300.0,18276499,Tenge (KZT),"Kazakh (kk), Russian (ru)"
+Laos,"LA, 418 and LAO",LA,Vientiane,236800.0,7061507,Kip (LAK),"Lao (lo), French (fr), English (en)"
+Lebanon,"LB, 422 and LBN",LE,Beirut,10400.0,6848925,Pound (LBP),"Arabic (ar-LB), French (fr-LB), English (en), Armenian (hy)"
+Saint Lucia,"LC, 662 and LCA",ST,Castries,616.0,181889,Dollar (XCD),English (en-LC)
+Liechtenstein,"LI, 438 and LIE",LS,Vaduz,160.0,37910,Franc (CHF),German (de-LI)
+Sri Lanka,"LK, 144 and LKA",CE,Colombo,65610.0,21670000,Rupee (LKR),"Sinhala (si), Tamil (ta), English (en)"
+Liberia,"LR, 430 and LBR",LI,Monrovia,111370.0,4818977,Dollar (LRD),English (en-LR)
+Lesotho,"LS, 426 and LSO",LT,Maseru,30355.0,2108132,Loti (LSL),"English (en-LS), Southern Sotho (st), Zulu (zu), Xhosa (xh)"
+Lithuania,"LT, 440 and LTU",LH,Vilnius,65200.0,2789533,Euro (EUR),"Lithuanian (lt), Russian (ru), Polish (pl)"
+Luxembourg,"LU, 442 and LUX",LU,Luxembourg,2586.0,607728,Euro (EUR),"Luxembourgish (lb), German (de-LU), French (fr-LU)"
+Latvia,"LV, 428 and LVA",LG,Riga,64589.0,1926542,Euro (EUR),"Latvian (lv), Russian (ru), Lithuanian (lt)"
+Libya,"LY, 434 and LBY",LY,Tripoli,1759540.0,6678567,Dinar (LYD),"Arabic (ar-LY), Italian (it), English (en)"
+Morocco,"MA, 504 and MAR",MO,Rabat,446550.0,36029138,Dirham (MAD),"Arabic (ar-MA), Berber languages (ber), French (fr)"
+Monaco,"MC, 492 and MCO",MN,Monaco,1.9,38682,Euro (EUR),"French (fr-MC), English (en), Italian (it)"
+Moldova,"MD, 498 and MDA",MD,Chișinău,33843.0,3545883,Leu (MDL),"Romanian (ro), Russian (ru), Gagauz (gag), Turkish (tr)"
+Montenegro,"ME, 499 and MNE",MJ,Podgorica,14026.0,622345,Euro (EUR),"Serbian (sr), Hungarian (hu), Bosnian (bs), Albanian (sq), Croatian (hr), Romany (rom)"
+Saint Martin,"MF, 663 and MAF",RN,Marigot,53.0,37264,Euro (EUR),French (fr)
+Madagascar,"MG, 450 and MDG",MA,Antananarivo,587040.0,26262368,Ariary (MGA),"French (fr-MG), Malagasy (mg)"
+Marshall Islands,"MH, 584 and MHL",RM,Majuro,181.3,58413,Dollar (USD),"Marshallese (mh), English (en-MH)"
+North Macedonia,"MK, 807 and MKD",MK,Skopje,25333.0,2082958,Denar (MKD),"Macedonian (mk), Albanian (sq), Turkish (tr), Roma (rmm), Serbian (sr)"
+Mali,"ML, 466 and MLI",ML,Bamako,1240000.0,19077690,Franc (XOF),"French (fr-ML), Bambara (bm)"
+Myanmar,"MM, 104 and MMR",BM,Nay Pyi Taw,678500.0,53708395,Kyat (MMK),Burmese (my)
+Mongolia,"MN, 496 and MNG",MG,Ulaanbaatar,1565000.0,3170208,Tugrik (MNT),"Mongolian (mn), Russian (ru)"
+Macao,"MO, 446 and MAC",MC,Macao,254.0,631636,Pataca (MOP),"Chinese (zh), Chinese (zh-MO), Portuguese (pt)"
+Northern Mariana Islands,"MP, 580 and MNP",CQ,Saipan,477.0,56882,Dollar (USD),"Filipino (fil), Tagalog (tl), Chinese (zh), Chamorro (ch-MP), English (en-MP)"
+Martinique,"MQ, 474 and MTQ",MB,Fort-de-France,1100.0,432900,Euro (EUR),French (fr-MQ)
+Mauritania,"MR, 478 and MRT",MR,Nouakchott,1030700.0,4403319,Ouguiya (MRU),"Arabic (ar-MR), Pulaar (fuc), Soninke (snk), French (fr), Hassaniyya (mey), Wolof (wo)"
+Montserrat,"MS, 500 and MSR",MH,Plymouth,102.0,9341,Dollar (XCD),English (en-MS)
+Malta,"MT, 470 and MLT",MT,Valletta,316.0,483530,Euro (EUR),"Maltese (mt), English (en-MT)"
+Mauritius,"MU, 480 and MUS",MP,Port Louis,2040.0,1265303,Rupee (MUR),"English (en-MU), Bhojpuri (bho), French (fr)"
+Maldives,"MV, 462 and MDV",MV,Malé,300.0,515696,Rufiyaa (MVR),"Dhivehi (dv), English (en)"
+Malawi,"MW, 454 and MWI",MI,Lilongwe,118480.0,17563749,Kwacha (MWK),"Nyanja (ny), Yao (yao), Tumbuka (tum), Malawi Sena (swk)"
+Mexico,"MX, 484 and MEX",MX,Mexico City,1972550.0,126190788,Peso (MXN),Spanish (es-MX)
+Malaysia,"MY, 458 and MYS",MY,Kuala Lumpur,329750.0,31528585,Ringgit (MYR),"Malay (macrolanguage) (ms-MY), English (en), Chinese (zh), Tamil (ta), Telugu (te), Malayalam (ml), Panjabi (pa), Thai (th)"
+Mozambique,"MZ, 508 and MOZ",MZ,Maputo,801590.0,29495962,Metical (MZN),"Portuguese (pt-MZ), Makhuwa (vmw)"
+Namibia,"NA, 516 and NAM",WA,Windhoek,825418.0,2448255,Dollar (NAD),"English (en-NA), Afrikaans (af), German (de), Herero (hz), Khoekhoe (naq)"
+New Caledonia,"NC, 540 and NCL",NC,Noumea,19060.0,284060,Franc (XPF),French (fr-NC)
+Niger,"NE, 562 and NER",NG,Niamey,1267000.0,22442948,Franc (XOF),"French (fr-NE), Hausa (ha), Kanuri (kr), Zarma (dje)"
+Norfolk Island,"NF, 574 and NFK",NF,Kingston,34.6,1828,Dollar (AUD),English (en-NF)
+Nigeria,"NG, 566 and NGA",NI,Abuja,923768.0,195874740,Naira (NGN),"English (en-NG), Hausa (ha), Yoruba (yo), Igbo (ig), Fulah (ff)"
+Nicaragua,"NI, 558 and NIC",NU,Managua,129494.0,6465513,Cordoba (NIO),"Spanish (es-NI), English (en)"
+The Netherlands,"NL, 528 and NLD",NL,Amsterdam,41526.0,17231017,Euro (EUR),"Dutch (nl-NL), Western Frisian (fy-NL)"
+Norway,"NO, 578 and NOR",NO,Oslo,324220.0,5314336,Krone (NOK),"Norwegian (no), Norwegian Bokmål (nb), Norwegian Nynorsk (nn), Northern Sami (se), Finnish (fi)"
+Nepal,"NP, 524 and NPL",NP,Kathmandu,140800.0,28087871,Rupee (NPR),"Nepali (macrolanguage) (ne), English (en)"
+Nauru,"NR, 520 and NRU",NR,Yaren District,21.0,12704,Dollar (AUD),"Nauru (na), English (en-NR)"
+Niue,"NU, 570 and NIU",NE,Alofi,260.0,2166,Dollar (NZD),"Niuean (niu), English (en-NU)"
+New Zealand,"NZ, 554 and NZL",NZ,Wellington,268680.0,4885500,Dollar (NZD),"English (en-NZ), Maori (mi)"
+Oman,"OM, 512 and OMN",MU,Muscat,212460.0,4829483,Rial (OMR),"Arabic (ar-OM), English (en), Baluchi (bal), Urdu (ur)"
+Panama,"PA, 591 and PAN",PM,Panama City,78200.0,4176873,Balboa (PAB),"Spanish (es-PA), English (en)"
+Peru,"PE, 604 and PER",PE,Lima,1285220.0,31989256,Sol (PEN),"Spanish (es-PE), Quechua (qu), Aymara (ay)"
+French Polynesia,"PF, 258 and PYF",FP,Papeete,4167.0,277679,Franc (XPF),"French (fr-PF), Tahitian (ty)"
+Papua New Guinea,"PG, 598 and PNG",PP,Port Moresby,462840.0,8606316,Kina (PGK),"English (en-PG), Hiri Motu (ho), Motu (meu), Tok Pisin (tpi)"
+Philippines,"PH, 608 and PHL",RP,Manila,300000.0,106651922,Peso (PHP),"Tagalog (tl), English (en-PH), Filipino (fil), Cebuano (ceb), Iloko (ilo), Hiligaynon (hil), Waray (Philippines) (war), Pampanga (pam), Bikol (bik), Central Bikol (bcl), Pangasinan (pag), Maranao (mrw), Tausug (tsg), Maguindanaon (mdh), Chavacano (cbk), Kinaray-A (krj), Surigaonon (sgd), Masbatenyo (msb), Aklanon (akl), Ibanag (ibg), Yakan (yka), Cotabato Manobo (mta), Inabaknon (abx)"
+Pakistan,"PK, 586 and PAK",PK,Islamabad,803940.0,212215030,Rupee (PKR),"Urdu (ur-PK), English (en-PK), Panjabi (pa), Sindhi (sd), Pushto (ps), Brahui (brh)"
+Poland,"PL, 616 and POL",PL,Warsaw,312685.0,37978548,Zloty (PLN),Polish (pl)
+Saint Pierre and Miquelon,"PM, 666 and SPM",SB,Saint-Pierre,242.0,7012,Euro (EUR),French (fr-PM)
+Pitcairn Islands,"PN, 612 and PCN",PC,Adamstown,47.0,46,Dollar (NZD),English (en-PN)
+Puerto Rico,"PR, 630 and PRI",RQ,San Juan,9104.0,3195153,Dollar (USD),"English (en-PR), Spanish (es-PR)"
+Palestine,"PS, 275 and PSE",WE,,5970.0,4569087,Shekel (ILS),Arabic (ar-PS)
+Portugal,"PT, 620 and PRT",PO,Lisbon,92391.0,10281762,Euro (EUR),"Portuguese (pt-PT), Mirandese (mwl)"
+Palau,"PW, 585 and PLW",PS,Ngerulmud,458.0,17907,Dollar (USD),"Palauan (pau), Sonsorol (sov), English (en-PW), Tobian (tox), Japanese (ja), Filipino (fil), Chinese (zh)"
+Paraguay,"PY, 600 and PRY",PA,Asunción,406750.0,6956071,Guarani (PYG),"Spanish (es-PY), Guarani (gn)"
+Qatar,"QA, 634 and QAT",QA,Doha,11437.0,2781677,Rial (QAR),"Arabic (ar-QA), Spanish (es)"
+Réunion,"RE, 638 and REU",RE,Saint-Denis,2517.0,776948,Euro (EUR),French (fr-RE)
+Romania,"RO, 642 and ROU",RO,Bucharest,237500.0,19473936,Leu (RON),"Romanian (ro), Hungarian (hu), Romany (rom)"
+Serbia,"RS, 688 and SRB",RI,Belgrade,88361.0,6982084,Dinar (RSD),"Serbian (sr), Hungarian (hu), Bosnian (bs), Romany (rom)"
+Russia,"RU, 643 and RUS",RS,Moscow,17100000.0,144478050,Ruble (RUB),"Russian (ru), Tatar (tt), Kalmyk (xal), Caucasian languages (cau), Adyghe (ady), Komi (kv), Chechen (ce), Tuvinian (tyv), Chuvash (cv), Udmurt (udm), Altaic languages (tut), Mansi (mns), Buriat (bua), Erzya (myv), Moksha (mdf), Mari (Russia) (chm), Bashkir (ba), Ingush (inh), Kabardian (kbd), Karachay-Balkar (krc), Avaric (av), Yakut (sah), Nogai (nog)"
+Rwanda,"RW, 646 and RWA",RW,Kigali,26338.0,12301939,Franc (RWF),"Kinyarwanda (rw), English (en-RW), French (fr-RW), Swahili (macrolanguage) (sw)"
+Saudi Arabia,"SA, 682 and SAU",SA,Riyadh,1960582.0,33699947,Rial (SAR),Arabic (ar-SA)
+Solomon Islands,"SB, 090 and SLB",BP,Honiara,28450.0,652858,Dollar (SBD),"English (en-SB), Tok Pisin (tpi)"
+Seychelles,"SC, 690 and SYC",SE,Victoria,455.0,96762,Rupee (SCR),"English (en-SC), French (fr-SC)"
+Sudan,"SD, 729 and SDN",SU,Khartoum,1861484.0,41801533,Pound (SDG),"Arabic (ar-SD), English (en), Nobiin (fia)"
+Sweden,"SE, 752 and SWE",SW,Stockholm,449964.0,10183175,Krona (SEK),"Swedish (sv-SE), Northern Sami (se), Southern Sami (sma), Finnish (fi-SE)"
+Singapore,"SG, 702 and SGP",SN,Singapore,692.7,5638676,Dollar (SGD),"Mandarin Chinese (cmn), English (en-SG), Malay (macrolanguage) (ms-SG), Tamil (ta-SG), Chinese (zh-SG)"
+Saint Helena,"SH, 654 and SHN",SH,Jamestown,410.0,7460,Pound (SHP),English (en-SH)
+Slovenia,"SI, 705 and SVN",SI,Ljubljana,20273.0,2067372,Euro (EUR),"Slovenian (sl), Serbo-Croatian (sh)"
+Svalbard and Jan Mayen,"SJ, 744 and SJM",SV,Longyearbyen,62049.0,2550,Krone (NOK),"Norwegian (no), Russian (ru)"
+Slovakia,"SK, 703 and SVK",LO,Bratislava,48845.0,5447011,Euro (EUR),"Slovak (sk), Hungarian (hu)"
+Sierra Leone,"SL, 694 and SLE",SL,Freetown,71740.0,7650154,Leone (SLL),"English (en-SL), Mende (Sierra Leone) (men), Timne (tem)"
+San Marino,"SM, 674 and SMR",SM,San Marino,61.2,33785,Euro (EUR),Italian (it-SM)
+Senegal,"SN, 686 and SEN",SG,Dakar,196190.0,15854360,Franc (XOF),"French (fr-SN), Wolof (wo), Pulaar (fuc), Mandinka (mnk)"
+Somalia,"SO, 706 and SOM",SO,Mogadishu,637657.0,15008154,Shilling (SOS),"Somali (so-SO), Arabic (ar-SO), Italian (it), English (en-SO)"
+Suriname,"SR, 740 and SUR",NS,Paramaribo,163270.0,575991,Dollar (SRD),"Dutch (nl-SR), English (en), Sranan Tongo (srn), Caribbean Hindustani (hns), Javanese (jv)"
+South Sudan,"SS, 728 and SSD",OD,Juba,644329.0,8260490,Pound (SSP),English (en)
+São Tomé and Príncipe,"ST, 678 and STP",TP,São Tomé,1001.0,197700,Dobra (STN),Portuguese (pt-ST)
+El Salvador,"SV, 222 and SLV",ES,San Salvador,21040.0,6420744,Dollar (USD),Spanish (es-SV)
+Sint Maarten,"SX, 534 and SXM",NN,Philipsburg,21.0,40654,Guilder (ANG),"Dutch (nl), English (en)"
+Syria,"SY, 760 and SYR",SY,Damascus,185180.0,16906283,Pound (SYP),"Arabic (ar-SY), Kurdish (ku), Armenian (hy), Official Aramaic (700-300 BCE) (arc), French (fr), English (en)"
+Eswatini,"SZ, 748 and SWZ",WZ,Mbabane,17363.0,1136191,Lilangeni (SZL),"English (en-SZ), Swati (ss-SZ)"
+Turks and Caicos Islands,"TC, 796 and TCA",TK,Cockburn Town,430.0,37665,Dollar (USD),English (en-TC)
+Chad,"TD, 148 and TCD",CD,N'Djamena,1284000.0,15477751,Franc (XAF),"French (fr-TD), Arabic (ar-TD), Sara (sre)"
+French Southern Territories,"TF, 260 and ATF",FS,Port-aux-Français,7829.0,140,Euro (EUR),French (fr)
+Togo,"TG, 768 and TGO",TO,Lomé,56785.0,7889094,Franc (XOF),"French (fr-TG), Ewe (ee), Mina (Cameroon) (hna), Kabiyè (kbp), Dagbani (dag), Hausa (ha)"
+Thailand,"TH, 764 and THA",TH,Bangkok,514000.0,69428524,Baht (THB),"Thai (th), English (en)"
+Tajikistan,"TJ, 762 and TJK",TI,Dushanbe,143100.0,9100837,Somoni (TJS),"Tajik (tg), Russian (ru)"
+Tokelau,"TK, 772 and TKL",TL,,10.0,1466,Dollar (NZD),"Tokelau (tkl), English (en-TK)"
+Timor-Leste,"TL, 626 and TLS",TT,Dili,15007.0,1267972,Dollar (USD),"Tetum (tet), Portuguese (pt-TL), Indonesian (id), English (en)"
+Turkmenistan,"TM, 795 and TKM",TX,Ashgabat,488100.0,5850908,Manat (TMT),"Turkmen (tk), Russian (ru), Uzbek (uz)"
+Tunisia,"TN, 788 and TUN",TS,Tunis,163610.0,11565204,Dinar (TND),"Arabic (ar-TN), French (fr)"
+Tonga,"TO, 776 and TON",TN,Nuku'alofa,748.0,103197,Pa'anga (TOP),"Tonga (Tonga Islands) (to), English (en-TO)"
+Türkiye,"TR, 792 and TUR",TU,Ankara,780580.0,82319724,Lira (TRY),"Turkish (tr-TR), Kurdish (ku), Dimli (individual language) (diq), Azerbaijani (az), Avaric (av)"
+Trinidad and Tobago,"TT, 780 and TTO",TD,Port of Spain,5128.0,1389858,Dollar (TTD),"English (en-TT), Caribbean Hindustani (hns), French (fr), Spanish (es), Chinese (zh)"
+Tuvalu,"TV, 798 and TUV",TV,Funafuti,26.0,11508,Dollar (AUD),"Tuvalu (tvl), English (en), Samoan (sm), Gilbertese (gil)"
+Taiwan,"TW, 158 and TWN",TW,Taipei,35980.0,23451837,Dollar (TWD),"Chinese (zh-TW), Chinese (zh), Min Nan Chinese (nan), Hakka Chinese (hak)"
+Tanzania,"TZ, 834 and TZA",TZ,Dodoma,945087.0,56318348,Shilling (TZS),"Swahili (macrolanguage) (sw-TZ), English (en), Arabic (ar)"
+Ukraine,"UA, 804 and UKR",UP,Kyiv,603700.0,44622516,Hryvnia (UAH),"Ukrainian (uk), Russian (ru-UA), Romany (rom), Polish (pl), Hungarian (hu)"
+Uganda,"UG, 800 and UGA",UG,Kampala,236040.0,42723139,Shilling (UGX),"English (en-UG), Ganda (lg), Swahili (macrolanguage) (sw), Arabic (ar)"
+U.S. Outlying Islands,"UM, 581 and UMI",,,0.0,0,Dollar (USD),English (en-UM)
+United States,"US, 840 and USA",US,Washington,9629091.0,327167434,Dollar (USD),"English (en-US), Spanish (es-US), Hawaiian (haw), French (fr)"
+Uruguay,"UY, 858 and URY",UY,Montevideo,176220.0,3449299,Peso (UYU),Spanish (es-UY)
+Uzbekistan,"UZ, 860 and UZB",UZ,Tashkent,447400.0,32955400,Som (UZS),"Uzbek (uz), Russian (ru), Tajik (tg)"
+Vatican City,"VA, 336 and VAT",VT,Vatican City,0.4,921,Euro (EUR),"Latin (la), Italian (it), French (fr)"
+St Vincent and Grenadines,"VC, 670 and VCT",VC,Kingstown,389.0,110211,Dollar (XCD),"English (en-VC), French (fr)"
+Venezuela,"VE, 862 and VEN",VE,Caracas,912050.0,28870195,Bolivar Soberano (VES),Spanish (es-VE)
+British Virgin Islands,"VG, 092 and VGB",VI,Road Town,153.0,29802,Dollar (USD),English (en-VG)
+U.S. Virgin Islands,"VI, 850 and VIR",VQ,Charlotte Amalie,352.0,106977,Dollar (USD),English (en-VI)
+Vietnam,"VN, 704 and VNM",VM,Hanoi,329560.0,95540395,Dong (VND),"Vietnamese (vi), English (en), French (fr), Chinese (zh), Khmer (km)"
+Vanuatu,"VU, 548 and VUT",NH,Port Vila,12200.0,292680,Vatu (VUV),"Bislama (bi), English (en-VU), French (fr-VU)"
+Wallis and Futuna,"WF, 876 and WLF",WF,Mata-Utu,274.0,16025,Franc (XPF),"Wallisian (wls), East Futuna (fud), French (fr-WF)"
+Samoa,"WS, 882 and WSM",WS,Apia,2944.0,196130,Tala (WST),"Samoan (sm), English (en-WS)"
+Kosovo,"XK, 0 and XKX",KV,Pristina,10908.0,1845300,Euro (EUR),"Albanian (sq), Serbian (sr)"
+Yemen,"YE, 887 and YEM",YM,Sanaa,527970.0,28498687,Rial (YER),Arabic (ar-YE)
+Mayotte,"YT, 175 and MYT",MF,Mamoudzou,374.0,279471,Euro (EUR),French (fr-YT)
+South Africa,"ZA, 710 and ZAF",SF,Pretoria,1219912.0,57779622,Rand (ZAR),"Zulu (zu), Xhosa (xh), Afrikaans (af), Pedi (nso), English (en-ZA), Tswana (tn), Southern Sotho (st), Tsonga (ts), Swati (ss), Venda (ve), South Ndebele (nr)"
+Zambia,"ZM, 894 and ZMB",ZA,Lusaka,752614.0,17351822,Kwacha (ZMW),"English (en-ZM), Bemba (Zambia) (bem), Lozi (loz), Lunda (lun), Luvale (lue), Nyanja (ny), Tonga (Zambia) (toi)"
+Zimbabwe,"ZW, 716 and ZWE",ZI,Harare,390580.0,14439018,Dollar (ZWL),"English (en-ZW), Shona (sn), South Ndebele (nr), North Ndebele (nd)"
