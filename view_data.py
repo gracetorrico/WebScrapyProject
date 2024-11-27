@@ -8,7 +8,7 @@ def fetch_data_from_db():
 
     # Consultar los 5 países con mayor población
     cursor.execute('''
-        SELECT name, population FROM countries 
+        SELECT country_name, population FROM countries 
         ORDER BY population DESC 
         LIMIT 5
     ''')
@@ -16,8 +16,8 @@ def fetch_data_from_db():
 
     # Consultar los 5 países con mayor área
     cursor.execute('''
-        SELECT name, area FROM countries 
-        ORDER BY area DESC 
+        SELECT country_name, area_km2 FROM countries 
+        ORDER BY area_km2 DESC 
         LIMIT 5
     ''')
     top_area = cursor.fetchall()
